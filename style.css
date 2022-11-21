@@ -118,7 +118,7 @@ li {
   }
   
   
-  .header .menu-icon {
+  .header .hamburger-icon {
     cursor: pointer;
     display: inline-block;
     float: left;
@@ -127,7 +127,7 @@ li {
     user-select: none;
   }
   
-  .header .menu-icon .navicon {
+  .header .hamburger-icon .nav-icon {
     background: #fff;
     display: block;
     height: 2px;
@@ -136,8 +136,8 @@ li {
     width: 18px;
   }
   
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
+  .header .hamburger-icon .nav-icon:before,
+  .header .hamburger-icon .nav-icon:after {
     background: #fff;
     content: '';
     display: block;
@@ -147,11 +147,11 @@ li {
     width: 100%;
   }
   
-  .header .menu-icon .navicon:before {
+  .header .hamburger-icon .nav-icon:before {
     top: 5px;
   }
   
-  .header .menu-icon .navicon:after {
+  .header .hamburger-icon .nav-icon:after {
     top: -5px;
   }
   
@@ -163,20 +163,20 @@ li {
     max-height: 500px;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon {
+  .header .menu-btn:checked ~ .hamburger-icon .nav-icon {
     background: transparent;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+  .header .menu-btn:checked ~ .hamburger-icon .nav-icon:before {
     transform: rotate(-45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+  .header .menu-btn:checked ~ .hamburger-icon .nav-icon:after {
     transform: rotate(45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  .header .menu-btn:checked ~ .hamburger-icon:not(.steps) .nav-icon:before,
+  .header .menu-btn:checked ~ .hamburger-icon:not(.steps) .nav-icon:after {
     top: 0;
   }
   
@@ -464,7 +464,7 @@ h1 {
     float: right;
     max-height: none;
   }
-  .header .menu-icon {
+  .header .hamburger-icon {
     display: none;
   }
   .header ul {
